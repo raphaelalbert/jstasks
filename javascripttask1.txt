@@ -1,0 +1,25 @@
+let name= "Owhere Raphael Odafe";
+console.log("My name is:" + name);
+var courses=["design", "css", "javascript","html"];
+console.log("Iam taking:" + course);
+let emptySet =[];
+function evenOrodd()
+{
+    if (courses.length %2===0){
+        for (let i=2; i<=200; i+=2){
+            emptySet.push(i);
+        }
+
+    }
+    else if (courses.length %2===1){
+        for (let i=1; i<=200; i+=2){
+            emptySet.push(i);
+        }
+
+    }
+            return emptySet;
+
+
+}
+
+console.log(evenOrodd());
